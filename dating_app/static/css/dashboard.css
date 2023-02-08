@@ -1,0 +1,55 @@
+body {
+    background-image: url(/media/img/deff34.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size:  1740px 890px;
+    overflow-x: hidden;
+    direction: ltr;
+    font: 87.5%/1.3572 -apple-system,"San Francisco","Helvetica Neue",Roboto,"Segoe WP","Segoe UI",sans-serif;
+    text-size-adjust: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    font-family: "Galano",Georgia,Times,serif;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+.button-logout{
+    border: 2px solid #fff;
+    width: auto;
+    display: block;
+    max-width: 320px;
+    text-align: center;
+    padding-top: 15px;
+    color: #000000;
+}
+
+table {
+    margin-left: 100px;
+    text-align: center;
+    border-spacing: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
