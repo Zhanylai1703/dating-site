@@ -10,8 +10,9 @@
     <title>Dashboard</title>
 </head>
 
+
 <body>
-    <a href='/logout'>Выйти</a>
+    <a class="button button-logout" href='/logout'>Выйти</a>
     <h3>Добро пожаловать {{request.session.user_nickname}}!</h3>
     <a class="button button-logout" href='/users/update/{{current_user.id}}'>Редактировать</a>
     <h1>Manage Users</h1>

@@ -1,5 +1,6 @@
 from django.db import models
 import re
+from ckeditor.fields import RichTextField
 # Create your models here.
 class UserManager(models.Manager):
     def basic_validator(self, post_data):
@@ -102,7 +103,7 @@ class User(models.Model):
     objects=UserManager()
 
 class Message(models.Model):
-    message=models.TextField()
+    message=RichTextField(blank=True,null=True)
     user=models.ForeignKey(User, related_name='messages', on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
